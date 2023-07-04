@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Index = () => {
 
@@ -15,8 +16,8 @@ const Index = () => {
                                 <div className="col-lg-12">
                                     <p className="sub text-uppercase">men Collection</p>
                                     <h3><span>Show</span> Your <br />Personal <span>Style</span></h3>
-                                    <h4>Fowl saw dry which a above together place.</h4>
-                                    <a className="main_btn mt-40" href="#">View Collection</a>
+                                    <h4>Fowl saw dry which Link above together place.</h4>
+                                    <Link className="main_btn mt-40">View Collection</Link>
                                 </div>
                             </div>
                         </div>
@@ -29,38 +30,38 @@ const Index = () => {
                         <div className="row">
                             <div className="col-lg-3 col-md-6">
                                 <div className="single-feature">
-                                    <a href="#" className="title">
+                                    <Link className="title">
                                         <i className="flaticon-money" />
                                         <h3>Money back gurantee</h3>
-                                    </a>
-                                    <p>Shall open divide a one</p>
+                                    </Link>
+                                    <p>Shall open divide Link one</p>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6">
                                 <div className="single-feature">
-                                    <a href="#" className="title">
+                                    <Link className="title">
                                         <i className="flaticon-truck" />
                                         <h3>Free Delivery</h3>
-                                    </a>
-                                    <p>Shall open divide a one</p>
+                                    </Link>
+                                    <p>Shall open divide Link one</p>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6">
                                 <div className="single-feature">
-                                    <a href="#" className="title">
+                                    <Link className="title">
                                         <i className="flaticon-support" />
                                         <h3>Alway support</h3>
-                                    </a>
-                                    <p>Shall open divide a one</p>
+                                    </Link>
+                                    <p>Shall open divide Link one</p>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6">
                                 <div className="single-feature">
-                                    <a href="#" className="title">
+                                    <Link className="title">
                                         <i className="flaticon-blockchain" />
                                         <h3>Secure payment</h3>
-                                    </a>
-                                    <p>Shall open divide a one</p>
+                                    </Link>
+                                    <p>Shall open divide Link one</p>
                                 </div>
                             </div>
                         </div>
@@ -84,21 +85,21 @@ const Index = () => {
                                     <div className="product-img">
                                         <img className="img-fluid w-100" src="asset/img/product/feature-product/f-p-1.jpg" alt />
                                         <div className="p_icon">
-                                            <a href="#">
+                                            <Link>
                                                 <i className="ti-eye" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-heart" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-shopping-cart" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="product-btm">
-                                        <a href="#" className="d-block">
+                                        <Link className="d-block">
                                             <h4>Latest men’s sneaker</h4>
-                                        </a>
+                                        </Link>
                                         <div className="mt-3">
                                             <span className="mr-4">$25.00</span>
                                             <del>$35.00</del>
@@ -111,21 +112,21 @@ const Index = () => {
                                     <div className="product-img">
                                         <img className="img-fluid w-100" src="asset/img/product/feature-product/f-p-2.jpg" alt />
                                         <div className="p_icon">
-                                            <a href="#">
+                                            <Link>
                                                 <i className="ti-eye" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-heart" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-shopping-cart" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="product-btm">
-                                        <a href="#" className="d-block">
+                                        <Link className="d-block">
                                             <h4>Red women purses</h4>
-                                        </a>
+                                        </Link>
                                         <div className="mt-3">
                                             <span className="mr-4">$25.00</span>
                                             <del>$35.00</del>
@@ -138,21 +139,21 @@ const Index = () => {
                                     <div className="product-img">
                                         <img className="img-fluid w-100" src="asset/img/product/feature-product/f-p-3.jpg" alt />
                                         <div className="p_icon">
-                                            <a href="#">
+                                            <Link>
                                                 <i className="ti-eye" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-heart" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-shopping-cart" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="product-btm">
-                                        <a href="#" className="d-block">
+                                        <Link className="d-block">
                                             <h4>Men stylist Smart Watch</h4>
-                                        </a>
+                                        </Link>
                                         <div className="mt-3">
                                             <span className="mr-4">$25.00</span>
                                             <del>$35.00</del>
@@ -172,7 +173,7 @@ const Index = () => {
                                 <div className="offer_content">
                                     <h3 className="text-uppercase mb-40">all men’s collection</h3>
                                     <h2 className="text-uppercase">50% off</h2>
-                                    <a href="#" className="main_btn mb-20 mt-5">Discover Now</a>
+                                    <Link className="main_btn mb-20 mt-5">Discover Now</Link>
                                     <p>Limited Time Offer</p>
                                 </div>
                             </div>
@@ -200,7 +201,7 @@ const Index = () => {
                                         <img className="img-fluid" src="asset/img/product/new-product/new-product1.png" alt />
                                     </div>
                                     <h4>$120.70</h4>
-                                    <a href="#" className="main_btn">Add to cart</a>
+                                    <Link to="/Cart" className="main_btn">Add to cart</Link>
                                 </div>
                             </div>
                             <div className="col-lg-6 mt-5 mt-lg-0">
@@ -210,21 +211,21 @@ const Index = () => {
                                             <div className="product-img">
                                                 <img className="img-fluid w-100" src="asset/img/product/new-product/n1.jpg" alt />
                                                 <div className="p_icon">
-                                                    <a href="#">
+                                                    <Link>
                                                         <i className="ti-eye" />
-                                                    </a>
-                                                    <a href="#">
+                                                    </Link>
+                                                    <Link>
                                                         <i className="ti-heart" />
-                                                    </a>
-                                                    <a href="#">
+                                                    </Link>
+                                                    <Link>
                                                         <i className="ti-shopping-cart" />
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                             </div>
                                             <div className="product-btm">
-                                                <a href="#" className="d-block">
+                                                <Link className="d-block">
                                                     <h4>Nike latest sneaker</h4>
-                                                </a>
+                                                </Link>
                                                 <div className="mt-3">
                                                     <span className="mr-4">$25.00</span>
                                                     <del>$35.00</del>
@@ -237,21 +238,21 @@ const Index = () => {
                                             <div className="product-img">
                                                 <img className="img-fluid w-100" src="asset/img/product/new-product/n2.jpg" alt />
                                                 <div className="p_icon">
-                                                    <a href="#">
+                                                    <Link>
                                                         <i className="ti-eye" />
-                                                    </a>
-                                                    <a href="#">
+                                                    </Link>
+                                                    <Link>
                                                         <i className="ti-heart" />
-                                                    </a>
-                                                    <a href="#">
+                                                    </Link>
+                                                    <Link>
                                                         <i className="ti-shopping-cart" />
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                             </div>
                                             <div className="product-btm">
-                                                <a href="#" className="d-block">
+                                                <Link className="d-block">
                                                     <h4>Men’s denim jeans</h4>
-                                                </a>
+                                                </Link>
                                                 <div className="mt-3">
                                                     <span className="mr-4">$25.00</span>
                                                     <del>$35.00</del>
@@ -264,21 +265,21 @@ const Index = () => {
                                             <div className="product-img">
                                                 <img className="img-fluid w-100" src="asset/img/product/new-product/n3.jpg" alt />
                                                 <div className="p_icon">
-                                                    <a href="#">
+                                                    <Link>
                                                         <i className="ti-eye" />
-                                                    </a>
-                                                    <a href="#">
+                                                    </Link>
+                                                    <Link>
                                                         <i className="ti-heart" />
-                                                    </a>
-                                                    <a href="#">
+                                                    </Link>
+                                                    <Link>
                                                         <i className="ti-shopping-cart" />
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                             </div>
                                             <div className="product-btm">
-                                                <a href="#" className="d-block">
+                                                <Link className="d-block">
                                                     <h4>quartz hand watch</h4>
-                                                </a>
+                                                </Link>
                                                 <div className="mt-3">
                                                     <span className="mr-4">$25.00</span>
                                                     <del>$35.00</del>
@@ -291,21 +292,21 @@ const Index = () => {
                                             <div className="product-img">
                                                 <img className="img-fluid w-100" src="asset/img/product/new-product/n4.jpg" alt />
                                                 <div className="p_icon">
-                                                    <a href="#">
+                                                    <Link>
                                                         <i className="ti-eye" />
-                                                    </a>
-                                                    <a href="#">
+                                                    </Link>
+                                                    <Link>
                                                         <i className="ti-heart" />
-                                                    </a>
-                                                    <a href="#">
+                                                    </Link>
+                                                    <Link>
                                                         <i className="ti-shopping-cart" />
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                             </div>
                                             <div className="product-btm">
-                                                <a href="#" className="d-block">
+                                                <Link className="d-block">
                                                     <h4>adidas sport shoe</h4>
-                                                </a>
+                                                </Link>
                                                 <div className="mt-3">
                                                     <span className="mr-4">$25.00</span>
                                                     <del>$35.00</del>
@@ -336,21 +337,21 @@ const Index = () => {
                                     <div className="product-img">
                                         <img className="img-fluid w-100" src="asset/img/product/inspired-product/i1.jpg" alt />
                                         <div className="p_icon">
-                                            <a href="#">
+                                            <Link>
                                                 <i className="ti-eye" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-heart" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-shopping-cart" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="product-btm">
-                                        <a href="#" className="d-block">
+                                        <Link className="d-block">
                                             <h4>Latest men’s sneaker</h4>
-                                        </a>
+                                        </Link>
                                         <div className="mt-3">
                                             <span className="mr-4">$25.00</span>
                                             <del>$35.00</del>
@@ -363,21 +364,21 @@ const Index = () => {
                                     <div className="product-img">
                                         <img className="img-fluid w-100" src="asset/img/product/inspired-product/i2.jpg" alt />
                                         <div className="p_icon">
-                                            <a href="#">
+                                            <Link>
                                                 <i className="ti-eye" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-heart" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-shopping-cart" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="product-btm">
-                                        <a href="#" className="d-block">
+                                        <Link className="d-block">
                                             <h4>Latest men’s sneaker</h4>
-                                        </a>
+                                        </Link>
                                         <div className="mt-3">
                                             <span className="mr-4">$25.00</span>
                                             <del>$35.00</del>
@@ -390,21 +391,21 @@ const Index = () => {
                                     <div className="product-img">
                                         <img className="img-fluid w-100" src="asset/img/product/inspired-product/i3.jpg" alt />
                                         <div className="p_icon">
-                                            <a href="#">
+                                            <Link>
                                                 <i className="ti-eye" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-heart" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-shopping-cart" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="product-btm">
-                                        <a href="#" className="d-block">
+                                        <Link className="d-block">
                                             <h4>Latest men’s sneaker</h4>
-                                        </a>
+                                        </Link>
                                         <div className="mt-3">
                                             <span className="mr-4">$25.00</span>
                                             <del>$35.00</del>
@@ -417,21 +418,21 @@ const Index = () => {
                                     <div className="product-img">
                                         <img className="img-fluid w-100" src="asset/img/product/inspired-product/i4.jpg" alt />
                                         <div className="p_icon">
-                                            <a href="#">
+                                            <Link>
                                                 <i className="ti-eye" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-heart" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-shopping-cart" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="product-btm">
-                                        <a href="#" className="d-block">
+                                        <Link className="d-block">
                                             <h4>Latest men’s sneaker</h4>
-                                        </a>
+                                        </Link>
                                         <div className="mt-3">
                                             <span className="mr-4">$25.00</span>
                                             <del>$35.00</del>
@@ -444,21 +445,21 @@ const Index = () => {
                                     <div className="product-img">
                                         <img className="img-fluid w-100" src="asset/img/product/inspired-product/i5.jpg" alt />
                                         <div className="p_icon">
-                                            <a href="#">
+                                            <Link>
                                                 <i className="ti-eye" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-heart" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-shopping-cart" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="product-btm">
-                                        <a href="#" className="d-block">
+                                        <Link className="d-block">
                                             <h4>Latest men’s sneaker</h4>
-                                        </a>
+                                        </Link>
                                         <div className="mt-3">
                                             <span className="mr-4">$25.00</span>
                                             <del>$35.00</del>
@@ -471,21 +472,21 @@ const Index = () => {
                                     <div className="product-img">
                                         <img className="img-fluid w-100" src="asset/img/product/inspired-product/i6.jpg" alt />
                                         <div className="p_icon">
-                                            <a href="#">
+                                            <Link>
                                                 <i className="ti-eye" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-heart" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-shopping-cart" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="product-btm">
-                                        <a href="#" className="d-block">
+                                        <Link className="d-block">
                                             <h4>Latest men’s sneaker</h4>
-                                        </a>
+                                        </Link>
                                         <div className="mt-3">
                                             <span className="mr-4">$25.00</span>
                                             <del>$35.00</del>
@@ -498,21 +499,21 @@ const Index = () => {
                                     <div className="product-img">
                                         <img className="img-fluid w-100" src="asset/img/product/inspired-product/i7.jpg" alt />
                                         <div className="p_icon">
-                                            <a href="#">
+                                            <Link>
                                                 <i className="ti-eye" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-heart" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-shopping-cart" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="product-btm">
-                                        <a href="#" className="d-block">
+                                        <Link className="d-block">
                                             <h4>Latest men’s sneaker</h4>
-                                        </a>
+                                        </Link>
                                         <div className="mt-3">
                                             <span className="mr-4">$25.00</span>
                                             <del>$35.00</del>
@@ -525,21 +526,21 @@ const Index = () => {
                                     <div className="product-img">
                                         <img className="img-fluid w-100" src="asset/img/product/inspired-product/i8.jpg" alt />
                                         <div className="p_icon">
-                                            <a href="#">
+                                            <Link>
                                                 <i className="ti-eye" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-heart" />
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link>
                                                 <i className="ti-shopping-cart" />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="product-btm">
-                                        <a href="#" className="d-block">
+                                        <Link className="d-block">
                                             <h4>Latest men’s sneaker</h4>
-                                        </a>
+                                        </Link>
                                         <div className="mt-3">
                                             <span className="mr-4">$25.00</span>
                                             <del>$35.00</del>
@@ -570,20 +571,20 @@ const Index = () => {
                                     </div>
                                     <div className="short_details">
                                         <div className="meta-top d-flex">
-                                            <a href="#">By Admin</a>
-                                            <a href="#"><i className="ti-comments-smiley" />2 Comments</a>
+                                            <Link>By Admin</Link>
+                                            <Link><i className="ti-comments-smiley" />2 Comments</Link>
                                         </div>
-                                        <a className="d-block" href="single-blog.html">
+                                        <Link className="d-block" to="/SingleBlog">
                                             <h4>Ford clever bed stops your sleeping
                                                 partner hogging the whole</h4>
-                                        </a>
+                                        </Link>
                                         <div className="text-wrap">
                                             <p>
                                                 Let one fifth i bring fly to divided face for bearing the divide unto seed winged divided light
                                                 Forth.
                                             </p>
                                         </div>
-                                        <a href="#" className="blog_btn">Learn More <span className="ml-2 ti-arrow-right" /></a>
+                                        <Link className="blog_btn">Learn More <span className="ml-2 ti-arrow-right" /></Link>
                                     </div>
                                 </div>
                             </div>
@@ -594,20 +595,20 @@ const Index = () => {
                                     </div>
                                     <div className="short_details">
                                         <div className="meta-top d-flex">
-                                            <a href="#">By Admin</a>
-                                            <a href="#"><i className="ti-comments-smiley" />2 Comments</a>
+                                            <Link>By Admin</Link>
+                                            <Link><i className="ti-comments-smiley" />2 Comments</Link>
                                         </div>
-                                        <a className="d-block" href="single-blog.html">
+                                        <Link className="d-block" to="/SingleBlog">
                                             <h4>Ford clever bed stops your sleeping
                                                 partner hogging the whole</h4>
-                                        </a>
+                                        </Link>
                                         <div className="text-wrap">
                                             <p>
                                                 Let one fifth i bring fly to divided face for bearing the divide unto seed winged divided light
                                                 Forth.
                                             </p>
                                         </div>
-                                        <a href="#" className="blog_btn">Learn More <span className="ml-2 ti-arrow-right" /></a>
+                                        <Link className="blog_btn">Learn More <span className="ml-2 ti-arrow-right" /></Link>
                                     </div>
                                 </div>
                             </div>
@@ -618,20 +619,20 @@ const Index = () => {
                                     </div>
                                     <div className="short_details">
                                         <div className="meta-top d-flex">
-                                            <a href="#">By Admin</a>
-                                            <a href="#"><i className="ti-comments-smiley" />2 Comments</a>
+                                            <Link>By Admin</Link>
+                                            <Link><i className="ti-comments-smiley" />2 Comments</Link>
                                         </div>
-                                        <a className="d-block" href="single-blog.html">
+                                        <Link className="d-block" to="/SingleBlog">
                                             <h4>Ford clever bed stops your sleeping
                                                 partner hogging the whole</h4>
-                                        </a>
+                                        </Link>
                                         <div className="text-wrap">
                                             <p>
                                                 Let one fifth i bring fly to divided face for bearing the divide unto seed winged divided light
                                                 Forth.
                                             </p>
                                         </div>
-                                        <a href="#" className="blog_btn">Learn More <span className="ml-2 ti-arrow-right" /></a>
+                                        <Link className="blog_btn">Learn More <span className="ml-2 ti-arrow-right" /></Link>
                                     </div>
                                 </div>
                             </div>
