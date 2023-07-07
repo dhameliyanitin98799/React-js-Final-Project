@@ -44,8 +44,9 @@ const Header = () => {
                     <div className="container">
                         <nav className="navbar navbar-expand-lg navbar-light w-100">
                             {/* Brand and toggle get grouped for better mobile display */}
-                            <Link className="navbar-brand logo_h" to="/">
-                            <link rel="icon" href="asset/img/" type="image/png" />
+                            <Link className="navbar-brand logo_h" to="/"/>
+                            <Link >
+                            <img className='setimage' src="https://iili.io/Hs2cvXs.md.png" alt="Hs2cvXs.md.png" border="0"/>
                             </Link>
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="icon-bar" />

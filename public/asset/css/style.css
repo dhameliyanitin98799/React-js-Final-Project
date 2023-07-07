@@ -5051,7 +5051,7 @@ h6 {
     height: 14px;
     z-index: 9;
     cursor: pointer;
-    -webkit-transition: all 0.25s linear;
+    -webkit-transform: all 0.25s linear;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     color: #2a2a2a;
@@ -5285,4 +5285,7 @@ h6 {
 
 .footer-area .footer-bottom .footer-social a:hover {
     background: #71cd14
+}
+.setimage {
+    width: 150px;
 }

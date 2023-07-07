@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Category = () => {
     return (
@@ -15,9 +16,9 @@ const Category = () => {
                                     <p>Very us move be blessed multiply night</p>
                                 </div>
                                 <div className="page_link">
-                                    <a href="index.html">Home</a>
-                                    <a href="category.html">Shop</a>
-                                    <a href="category.html">Women Fashion</a>
+                                    <Link to="index.html">Home</Link>
+                                    <Link to="category.html">Shop</Link>
+                                    <Link to="category.html">Women Fashion</Link>
                                 </div>
                             </div>
                         </div>
@@ -50,21 +51,21 @@ const Category = () => {
                                                 <div className="product-img">
                                                     <img className="card-img" src="asset/img/product/inspired-product/i1.jpg" alt />
                                                     <div className="p_icon">
-                                                        <a href="#">
+                                                        <Link to="#">
                                                             <i className="ti-eye" />
-                                                        </a>
-                                                        <a href="#">
+                                                        </Link>
+                                                        <Link to="#">
                                                             <i className="ti-heart" />
-                                                        </a>
-                                                        <a href="#">
+                                                        </Link>
+                                                        <Link to="#">
                                                             <i className="ti-shopping-cart" />
-                                                        </a>
+                                                        </Link>
                                                     </div>
                                                 </div>
                                                 <div className="product-btm">
-                                                    <a href="#" className="d-block">
+                                                    <Link to="#" className="d-block">
                                                         <h4>Latest men’s sneaker</h4>
-                                                    </a>
+                                                    </Link>
                                                     <div className="mt-3">
                                                         <span className="mr-4">$25.00</span>
                                                         <del>$35.00</del>
@@ -77,21 +78,21 @@ const Category = () => {
                                                 <div className="product-img">
                                                     <img className="card-img" src="asset/img/product/inspired-product/i2.jpg" alt />
                                                     <div className="p_icon">
-                                                        <a href="#">
+                                                        <Link to="#">
                                                             <i className="ti-eye" />
-                                                        </a>
-                                                        <a href="#">
+                                                        </Link>
+                                                        <Link to="#">
                                                             <i className="ti-heart" />
-                                                        </a>
-                                                        <a href="#">
+                                                        </Link>
+                                                        <Link to="#">
                                                             <i className="ti-shopping-cart" />
-                                                        </a>
+                                                        </Link>
                                                     </div>
                                                 </div>
                                                 <div className="product-btm">
-                                                    <a href="#" className="d-block">
+                                                    <Link to="#" className="d-block">
                                                         <h4>Latest men’s sneaker</h4>
-                                                    </a>
+                                                    </Link>
                                                     <div className="mt-3">
                                                         <span className="mr-4">$25.00</span>
                                                         <del>$35.00</del>
@@ -104,21 +105,21 @@ const Category = () => {
                                                 <div className="product-img">
                                                     <img className="card-img" src="asset/img/product/inspired-product/i3.jpg" alt />
                                                     <div className="p_icon">
-                                                        <a href="#">
+                                                        <Link to="#">
                                                             <i className="ti-eye" />
-                                                        </a>
-                                                        <a href="#">
+                                                        </Link>
+                                                        <Link to="#">
                                                             <i className="ti-heart" />
-                                                        </a>
-                                                        <a href="#">
+                                                        </Link>
+                                                        <Link to="#">
                                                             <i className="ti-shopping-cart" />
-                                                        </a>
+                                                        </Link>
                                                     </div>
                                                 </div>
                                                 <div className="product-btm">
-                                                    <a href="#" className="d-block">
+                                                    <Link to="#" className="d-block">
                                                         <h4>Latest men’s sneaker</h4>
-                                                    </a>
+                                                    </Link>
                                                     <div className="mt-3">
                                                         <span className="mr-4">$25.00</span>
                                                         <del>$35.00</del>
@@ -131,21 +132,21 @@ const Category = () => {
                                                 <div className="product-img">
                                                     <img className="card-img" src="asset/img/product/inspired-product/i4.jpg" alt />
                                                     <div className="p_icon">
-                                                        <a href="#">
+                                                        <Link to="#">
                                                             <i className="ti-eye" />
-                                                        </a>
-                                                        <a href="#">
+                                                        </Link>
+                                                        <Link to="#">
                                                             <i className="ti-heart" />
-                                                        </a>
-                                                        <a href="#">
+                                                        </Link>
+                                                        <Link to="#">
                                                             <i className="ti-shopping-cart" />
-                                                        </a>
+                                                        </Link>
                                                     </div>
                                                 </div>
                                                 <div className="product-btm">
-                                                    <a href="#" className="d-block">
+                                                    <Link to="#" className="d-block">
                                                         <h4>Latest men’s sneaker</h4>
-                                                    </a>
+                                                    </Link>
                                                     <div className="mt-3">
                                                         <span className="mr-4">$25.00</span>
                                                         <del>$35.00</del>
@@ -158,21 +159,21 @@ const Category = () => {
                                                 <div className="product-img">
                                                     <img className="card-img" src="asset/img/product/inspired-product/i5.jpg" alt />
                                                     <div className="p_icon">
-                                                        <a href="#">
+                                                        <Link to="#">
                                                             <i className="ti-eye" />
-                                                        </a>
-                                                        <a href="#">
+                                                        </Link>
+                                                        <Link to="#">
                                                             <i className="ti-heart" />
-                                                        </a>
-                                                        <a href="#">
+                                                        </Link>
+                                                        <Link to="#">
                                                             <i className="ti-shopping-cart" />
-                                                        </a>
+                                                        </Link>
                                                     </div>
                                                 </div>
                                                 <div className="product-btm">
-                                                    <a href="#" className="d-block">
+                                                    <Link to="#" className="d-block">
                                                         <h4>Latest men’s sneaker</h4>
-                                                    </a>
+                                                    </Link>
                                                     <div className="mt-3">
                                                         <span className="mr-4">$25.00</span>
                                                         <del>$35.00</del>
@@ -185,21 +186,21 @@ const Category = () => {
                                                 <div className="product-img">
                                                     <img className="card-img" src="asset/img/product/inspired-product/i6.jpg" alt />
                                                     <div className="p_icon">
-                                                        <a href="#">
+                                                        <Link to="#">
                                                             <i className="ti-eye" />
-                                                        </a>
-                                                        <a href="#">
+                                                        </Link>
+                                                        <Link to="#">
                                                             <i className="ti-heart" />
-                                                        </a>
-                                                        <a href="#">
+                                                        </Link>
+                                                        <Link to="#">
                                                             <i className="ti-shopping-cart" />
-                                                        </a>
+                                                        </Link>
                                                     </div>
                                                 </div>
                                                 <div className="product-btm">
-                                                    <a href="#" className="d-block">
+                                                    <Link to="#" className="d-block">
                                                         <h4>Latest men’s sneaker</h4>
-                                                    </a>
+                                                    </Link>
                                                     <div className="mt-3">
                                                         <span className="mr-4">$25.00</span>
                                                         <del>$35.00</del>
@@ -212,21 +213,21 @@ const Category = () => {
                                                 <div className="product-img">
                                                     <img className="card-img" src="asset/img/product/inspired-product/i7.jpg" alt />
                                                     <div className="p_icon">
-                                                        <a href="#">
+                                                        <Link to="#">
                                                             <i className="ti-eye" />
-                                                        </a>
-                                                        <a href="#">
+                                                        </Link>
+                                                        <Link to="#">
                                                             <i className="ti-heart" />
-                                                        </a>
-                                                        <a href="#">
+                                                        </Link>
+                                                        <Link to="#">
                                                             <i className="ti-shopping-cart" />
-                                                        </a>
+                                                        </Link>
                                                     </div>
                                                 </div>
                                                 <div className="product-btm">
-                                                    <a href="#" className="d-block">
+                                                    <Link to="#" className="d-block">
                                                         <h4>Latest men’s sneaker</h4>
-                                                    </a>
+                                                    </Link>
                                                     <div className="mt-3">
                                                         <span className="mr-4">$25.00</span>
                                                         <del>$35.00</del>
@@ -239,21 +240,21 @@ const Category = () => {
                                                 <div className="product-img">
                                                     <img className="card-img" src="asset/img/product/inspired-product/i8.jpg" alt />
                                                     <div className="p_icon">
-                                                        <a href="#">
+                                                        <Link to="#">
                                                             <i className="ti-eye" />
-                                                        </a>
-                                                        <a href="#">
+                                                        </Link>
+                                                        <Link to="#">
                                                             <i className="ti-heart" />
-                                                        </a>
-                                                        <a href="#">
+                                                        </Link>
+                                                        <Link to="#">
                                                             <i className="ti-shopping-cart" />
-                                                        </a>
+                                                        </Link>
                                                     </div>
                                                 </div>
                                                 <div className="product-btm">
-                                                    <a href="#" className="d-block">
+                                                    <Link to="#" className="d-block">
                                                         <h4>Latest men’s sneaker</h4>
-                                                    </a>
+                                                    </Link>
                                                     <div className="mt-3">
                                                         <span className="mr-4">$25.00</span>
                                                         <del>$35.00</del>
@@ -266,21 +267,21 @@ const Category = () => {
                                                 <div className="product-img">
                                                     <img className="card-img" src="asset/img/product/inspired-product/i2.jpg" alt />
                                                     <div className="p_icon">
-                                                        <a href="#">
+                                                        <Link to="#">
                                                             <i className="ti-eye" />
-                                                        </a>
-                                                        <a href="#">
+                                                        </Link>
+                                                        <Link to="#">
                                                             <i className="ti-heart" />
-                                                        </a>
-                                                        <a href="#">
+                                                        </Link>
+                                                        <Link to="#">
                                                             <i className="ti-shopping-cart" />
-                                                        </a>
+                                                        </Link>
                                                     </div>
                                                 </div>
                                                 <div className="product-btm">
-                                                    <a href="#" className="d-block">
+                                                    <Link to="#" className="d-block">
                                                         <h4>Latest men’s sneaker</h4>
-                                                    </a>
+                                                    </Link>
                                                     <div className="mt-3">
                                                         <span className="mr-4">$25.00</span>
                                                         <del>$35.00</del>
@@ -300,25 +301,25 @@ const Category = () => {
                                         <div className="widgets_inner">
                                             <ul className="list">
                                                 <li>
-                                                    <a href="#">Frozen Fish</a>
+                                                    <Link to="#">Frozen Fish</Link>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Dried Fish</a>
+                                                    <Link to="#">Dried Fish</Link>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Fresh Fish</a>
+                                                    <Link to="#">Fresh Fish</Link>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Meat Alternatives</a>
+                                                    <Link to="#">Meat Alternatives</Link>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Fresh Fish</a>
+                                                    <Link to="#">Fresh Fish</Link>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Meat Alternatives</a>
+                                                    <Link to="#">Meat Alternatives</Link>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Meat</a>
+                                                    <Link to="#">Meat</Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -330,19 +331,19 @@ const Category = () => {
                                         <div className="widgets_inner">
                                             <ul className="list">
                                                 <li>
-                                                    <a href="#">Apple</a>
+                                                    <Link to="#">Apple</Link>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Asus</a>
+                                                    <Link to="#">Asus</Link>
                                                 </li>
                                                 <li className="active">
-                                                    <a href="#">Gionee</a>
+                                                    <Link to="#">Gionee</Link>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Micromax</a>
+                                                    <Link to="#">Micromax</Link>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Samsung</a>
+                                                    <Link to="#">Samsung</Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -354,19 +355,19 @@ const Category = () => {
                                         <div className="widgets_inner">
                                             <ul className="list">
                                                 <li>
-                                                    <a href="#">Black</a>
+                                                    <Link to="#">Black</Link>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Black Leather</a>
+                                                    <Link to="#">Black Leather</Link>
                                                 </li>
                                                 <li className="active">
-                                                    <a href="#">Black with red</a>
+                                                    <Link to="#">Black with red</Link>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Gold</a>
+                                                    <Link to="#">Gold</Link>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Spacegrey</a>
+                                                    <Link to="#">Spacegrey</Link>
                                                 </li>
                                             </ul>
                                         </div>

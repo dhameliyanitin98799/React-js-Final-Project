@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Cart = () => {
     return (
@@ -14,9 +15,9 @@ const Cart = () => {
                                     <h2>Cart</h2>
                                     <p>Very us move be blessed multiply night</p>
                                 </div>
-                                <div className="page_link">
-                                    <link to="index.html">Home</link>
-                                    <link to="cart.html">Cart</link>
+                                <div className="page_Link">
+                                    <Link to="index.html">Home</Link>
+                                    <Link to="cart.html">Cart</Link>
                                 </div>
                             </div>
                         </div>
@@ -127,15 +128,15 @@ const Cart = () => {
                                         </tr>
                                         <tr className="bottom_button">
                                             <td>
-                                                <link className="gray_btn" to="#">Update Cart</link>
+                                                <Link className="gray_btn" to="#">Update Cart</Link>
                                             </td>
                                             <td />
                                             <td />
                                             <td>
                                                 <div className="cupon_text">
                                                     <input type="text" placeholder="Coupon Code" />
-                                                    <link className="main_btn" to="#">Apply</link>
-                                                    <link className="gray_btn" to="#">Close Coupon</link>
+                                                    <Link className="main_btn" to="#">Apply</Link>
+                                                    <Link className="gray_btn" to="#">Close Coupon</Link>
                                                 </div>
                                             </td>
                                         </tr>
@@ -159,16 +160,16 @@ const Cart = () => {
                                                 <div className="shipping_box">
                                                     <ul className="list">
                                                         <li>
-                                                            <link to="#">Flat Rate: $5.00</link>
+                                                            <Link to="#">Flat Rate: $5.00</Link>
                                                         </li>
                                                         <li>
-                                                            <link to="#">Free Shipping</link>
+                                                            <Link to="#">Free Shipping</Link>
                                                         </li>
                                                         <li>
-                                                            <link to="#">Flat Rate: $10.00</link>
+                                                            <Link to="#">Flat Rate: $10.00</Link>
                                                         </li>
                                                         <li className="active">
-                                                            <link to="#">Local Delivery: $2.00</link>
+                                                            <Link to="#">Local Delivery: $2.00</Link>
                                                         </li>
                                                     </ul>
                                                     <h6>
@@ -181,12 +182,12 @@ const Cart = () => {
                                                         <option value={4}>Pakistan</option>
                                                     </select>
                                                     <select className="shipping_select">
-                                                        <option value={1}>Select link State</option>
-                                                        <option value={2}>Select link State</option>
-                                                        <option value={4}>Select link State</option>
+                                                        <option value={1}>Select Link State</option>
+                                                        <option value={2}>Select Link State</option>
+                                                        <option value={4}>Select Link State</option>
                                                     </select>
                                                     <input type="text" placeholder="Postcode/Zipcode" />
-                                                    <link className="gray_btn" to="#">Update Details</link>
+                                                    <Link className="gray_btn" to="#">Update Details</Link>
                                                 </div>
                                             </td>
                                         </tr>
@@ -196,8 +197,8 @@ const Cart = () => {
                                             <td />
                                             <td>
                                                 <div className="checkout_btn_inner">
-                                                    <link className="gray_btn" to="#">Continue Shopping</link>
-                                                    <link className="main_btn" to="#">Proceed to checkout</link>
+                                                    <Link className="gray_btn" to="#">Continue Shopping</Link>
+                                                    <Link className="main_btn" to="#">Proceed to checkout</Link>
                                                 </div>
                                             </td>
                                         </tr>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Contact = () => {
   return (
@@ -15,8 +16,8 @@ const Contact = () => {
                                   <p>Very us move be blessed multiply night</p>
                               </div>
                               <div className="page_link">
-                                  <a href="index.html">Home</a>
-                                  <a href="contact.html">Contact Us</a>
+                                  <Link to="index.html">Home</Link>
+                                  <Link to="contact.html">Contact Us</Link>
                               </div>
                           </div>
                       </div>
@@ -73,14 +74,14 @@ const Contact = () => {
                               <div className="media contact-info">
                                   <span className="contact-info__icon"><i className="ti-tablet" /></span>
                                   <div className="media-body">
-                                      <h3><a href="tel:454545654">00 (440) 9865 562</a></h3>
+                                      <h3><Link to="tel:454545654">00 (440) 9865 562</Link></h3>
                                       <p>Mon to Fri 9am to 6pm</p>
                                   </div>
                               </div>
                               <div className="media contact-info">
                                   <span className="contact-info__icon"><i className="ti-email" /></span>
                                   <div className="media-body">
-                                      <h3><a href="mailto:support@colorlib.com">support@colorlib.com</a></h3>
+                                      <h3><Link to="mailto:support@colorlib.com">support@colorlib.com</Link></h3>
                                       <p>Send us your query anytime!</p>
                                   </div>
                               </div>

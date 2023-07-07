@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const SingleProduct = () => {
     return (
@@ -15,8 +16,8 @@ const SingleProduct = () => {
                                     <p>Very us move be blessed multiply night</p>
                                 </div>
                                 <div className="page_link">
-                                    <a href="index.html">Home</a>
-                                    <a href="single-product.html">Product Details</a>
+                                    <Link to="index.html">Home</Link>
+                                    <Link to="single-product.html">Product Details</Link>
                                 </div>
                             </div>
                         </div>
@@ -61,11 +62,11 @@ const SingleProduct = () => {
                                     <h2>$149.99</h2>
                                     <ul className="list">
                                         <li>
-                                            <a className="active" href="#">
-                                                <span>Category</span> : Household</a>
+                                            <Link className="active" to="#">
+                                                <span>Category</span> : Household</Link>
                                         </li>
                                         <li>
-                                            <a href="#"> <span>Availibility</span> : In Stock</a>
+                                            <Link to="#"> <span>Availibility</span> : In Stock</Link>
                                         </li>
                                     </ul>
                                     <p>
@@ -85,13 +86,13 @@ const SingleProduct = () => {
                                         </button>
                                     </div>
                                     <div className="card_area">
-                                        <a className="main_btn" href="#">Add to Cart</a>
-                                        <a className="icon_btn" href="#">
+                                        <Link className="main_btn" to="#">Add to Cart</Link>
+                                        <Link className="icon_btn" to="#">
                                             <i className="lnr lnr lnr-diamond" />
-                                        </a>
-                                        <a className="icon_btn" href="#">
+                                        </Link>
+                                        <Link className="icon_btn" to="#">
                                             <i className="lnr lnr lnr-heart" />
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -104,16 +105,16 @@ const SingleProduct = () => {
                     <div className="container">
                         <ul className="nav nav-tabs" id="myTab" role="tablist">
                             <li className="nav-item">
-                                <a className="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Description</a>
+                                <Link className="nav-Link" id="home-tab" data-toggle="tab" to="#home" role="tab" aria-controls="home" aria-selected="true">Description</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Specification</a>
+                                <Link className="nav-Link" id="profile-tab" data-toggle="tab" to="#profile" role="tab" aria-controls="profile" aria-selected="false">Specification</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Comments</a>
+                                <Link className="nav-Link" id="contact-tab" data-toggle="tab" to="#contact" role="tab" aria-controls="contact" aria-selected="false">Comments</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">Reviews</a>
+                                <Link className="nav-Link active" id="review-tab" data-toggle="tab" to="#review" role="tab" aria-controls="review" aria-selected="false">Reviews</Link>
                             </li>
                         </ul>
                         <div className="tab-content" id="myTabContent">
@@ -126,14 +127,14 @@ const SingleProduct = () => {
                                     to secretarial school and then into an insurance office. After
                                     moving to London and then Hampton, she eventually married her next
                                     door neighbour from Reading, John Cook. He was an officer in the
-                                    Merchant Navy and after he left the sea in 1956, they bought a pub
-                                    for a year before John took a job in Southern Rhodesia with a
-                                    motor company. Beryl bought their young son a box of watercolours,
+                                    Merchant Navy and after he left the sea in 1956, they bought Link pub
+                                    for Link year before John took Link job in Southern Rhodesia with Link
+                                    motor company. Beryl bought their young son Link box of watercolours,
                                     and when showing him how to use it, she decided that she herself
-                                    quite enjoyed painting. John subsequently bought her a child’s
+                                    quite enjoyed painting. John subsequently bought her Link child’s
                                     painting set for her birthday and it was with this that she
-                                    produced her first significant work, a half-length portrait of a
-                                    dark-skinned lady with a vacant expression and large drooping
+                                    produced her first significant work, Link half-length portrait of Link
+                                    dark-skinned lady with Link vacant expression and large drooping
                                     breasts. It was aptly named ‘Hangover’ by Beryl’s husband and
                                 </p>
                                 <p>
@@ -144,7 +145,7 @@ const SingleProduct = () => {
                                     children leaving for college are all reasons that someone
                                     accustomed to cooking for more than one would suddenly need to
                                     learn how to adjust all the cooking practices utilized before into
-                                    a streamlined plan of cooking that is more efficient for one
+                                    Link streamlined plan of cooking that is more efficient for one
                                     person creating less
                                 </p>
                             </div>
@@ -232,7 +233,7 @@ const SingleProduct = () => {
                                                     <div className="media-body">
                                                         <h4>Blake Ruiz</h4>
                                                         <h5>12th Feb, 2017 at 05:56 pm</h5>
-                                                        <a className="reply_btn" href="#">Reply</a>
+                                                        <Link className="reply_btn" to="#">Reply</Link>
                                                     </div>
                                                 </div>
                                                 <p>
@@ -250,7 +251,7 @@ const SingleProduct = () => {
                                                     <div className="media-body">
                                                         <h4>Blake Ruiz</h4>
                                                         <h5>12th Feb, 2017 at 05:56 pm</h5>
-                                                        <a className="reply_btn" href="#">Reply</a>
+                                                        <Link className="reply_btn" to="#">Reply</Link>
                                                     </div>
                                                 </div>
                                                 <p>
@@ -268,7 +269,7 @@ const SingleProduct = () => {
                                                     <div className="media-body">
                                                         <h4>Blake Ruiz</h4>
                                                         <h5>12th Feb, 2017 at 05:56 pm</h5>
-                                                        <a className="reply_btn" href="#">Reply</a>
+                                                        <Link className="reply_btn" to="#">Reply</Link>
                                                     </div>
                                                 </div>
                                                 <p>
@@ -282,7 +283,7 @@ const SingleProduct = () => {
                                     </div>
                                     <div className="col-lg-6">
                                         <div className="review_box">
-                                            <h4>Post a comment</h4>
+                                            <h4>Post Link comment</h4>
                                             <form className="row contact_form" action="contact_process.php" method="post" id="contactForm" noValidate="novalidate">
                                                 <div className="col-md-12">
                                                     <div className="form-group">
@@ -330,44 +331,44 @@ const SingleProduct = () => {
                                                     <h3>Based on 3 Reviews</h3>
                                                     <ul className="list">
                                                         <li>
-                                                            <a href="#">5 Star
+                                                            <Link to="#">5 Star
                                                                 <i className="fa fa-star" />
                                                                 <i className="fa fa-star" />
                                                                 <i className="fa fa-star" />
                                                                 <i className="fa fa-star" />
-                                                                <i className="fa fa-star" /> 01</a>
+                                                                <i className="fa fa-star" /> 01</Link>
                                                         </li>
                                                         <li>
-                                                            <a href="#">4 Star
+                                                            <Link to="#">4 Star
                                                                 <i className="fa fa-star" />
                                                                 <i className="fa fa-star" />
                                                                 <i className="fa fa-star" />
                                                                 <i className="fa fa-star" />
-                                                                <i className="fa fa-star" /> 01</a>
+                                                                <i className="fa fa-star" /> 01</Link>
                                                         </li>
                                                         <li>
-                                                            <a href="#">3 Star
+                                                            <Link to="#">3 Star
                                                                 <i className="fa fa-star" />
                                                                 <i className="fa fa-star" />
                                                                 <i className="fa fa-star" />
                                                                 <i className="fa fa-star" />
-                                                                <i className="fa fa-star" /> 01</a>
+                                                                <i className="fa fa-star" /> 01</Link>
                                                         </li>
                                                         <li>
-                                                            <a href="#">2 Star
+                                                            <Link to="#">2 Star
                                                                 <i className="fa fa-star" />
                                                                 <i className="fa fa-star" />
                                                                 <i className="fa fa-star" />
                                                                 <i className="fa fa-star" />
-                                                                <i className="fa fa-star" /> 01</a>
+                                                                <i className="fa fa-star" /> 01</Link>
                                                         </li>
                                                         <li>
-                                                            <a href="#">1 Star
+                                                            <Link to="#">1 Star
                                                                 <i className="fa fa-star" />
                                                                 <i className="fa fa-star" />
                                                                 <i className="fa fa-star" />
                                                                 <i className="fa fa-star" />
-                                                                <i className="fa fa-star" /> 01</a>
+                                                                <i className="fa fa-star" /> 01</Link>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -441,33 +442,33 @@ const SingleProduct = () => {
                                     </div>
                                     <div className="col-lg-6">
                                         <div className="review_box">
-                                            <h4>Add a Review</h4>
+                                            <h4>Add Link Review</h4>
                                             <p>Your Rating:</p>
                                             <ul className="list">
                                                 <li>
-                                                    <a href="#">
+                                                    <Link to="#">
                                                         <i className="fa fa-star" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <Link to="#">
                                                         <i className="fa fa-star" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <Link to="#">
                                                         <i className="fa fa-star" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <Link to="#">
                                                         <i className="fa fa-star" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <Link to="#">
                                                         <i className="fa fa-star" />
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                             <p>Outstanding</p>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const CheckOut = () => {
     return (
@@ -15,8 +16,8 @@ const CheckOut = () => {
                                     <p>Very us move be blessed multiply night</p>
                                 </div>
                                 <div className="page_link">
-                                    <a href="index.html">Home</a>
-                                    <a href="checkout.html">Product Checkout</a>
+                                    <Link to="index.html">Home</Link>
+                                    <Link to="checkout.html">Product Checkout</Link>
                                 </div>
                             </div>
                         </div>
@@ -30,12 +31,12 @@ const CheckOut = () => {
                             <div className="check_title">
                                 <h2>
                                     Returning Customer?
-                                    <a href="#">Click here to login</a>
+                                    <Link to="#">Click here to login</Link>
                                 </h2>
                             </div>
                             <p>
                                 If you have shopped with us before, please enter your details in the
-                                boxes below. If you are a new customer, please proceed to the
+                                boxes below. If you are Link new customer, please proceed to the
                                 Billing &amp; Shipping section.
                             </p>
                             <form className="row contact_form" action="#" method="post" noValidate="novalidate">
@@ -55,19 +56,19 @@ const CheckOut = () => {
                                         <input type="checkbox" id="f-option" name="selector" />
                                         <label htmlFor="f-option">Remember me</label>
                                     </div>
-                                    <a className="lost_pass" href="#">Lost your password?</a>
+                                    <Link className="lost_pass" to="#">Lost your password?</Link>
                                 </div>
                             </form>
                         </div>
                         <div className="cupon_area">
                             <div className="check_title">
                                 <h2>
-                                    Have a coupon?
-                                    <a href="#">Click here to enter your code</a>
+                                    Have Link coupon?
+                                    <Link to="#">Click here to enter your code</Link>
                                 </h2>
                             </div>
                             <input type="text" placeholder="Enter coupon code" />
-                            <a className="tp_btn" href="#">Apply Coupon</a>
+                            <Link className="tp_btn" to="#">Apply Coupon</Link>
                         </div>
                         <div className="billing_details">
                             <div className="row">
@@ -132,7 +133,7 @@ const CheckOut = () => {
                                             <div className="creat_account">
                                                 <h3>Shipping Details</h3>
                                                 <input type="checkbox" id="f-option3" name="selector" />
-                                                <label htmlFor="f-option3">Ship to a different address?</label>
+                                                <label htmlFor="f-option3">Ship to Link different address?</label>
                                             </div>
                                             <textarea className="form-control" name="message" id="message" rows={1} placeholder="Order Notes" defaultValue={""} />
                                         </div>
@@ -143,44 +144,44 @@ const CheckOut = () => {
                                         <h2>Your Order</h2>
                                         <ul className="list">
                                             <li>
-                                                <a href="#">Product
+                                                <Link to="#">Product
                                                     <span>Total</span>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">Fresh Blackberry
+                                                <Link to="#">Fresh Blackberry
                                                     <span className="middle">x 02</span>
                                                     <span className="last">$720.00</span>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">Fresh Tomatoes
+                                                <Link to="#">Fresh Tomatoes
                                                     <span className="middle">x 02</span>
                                                     <span className="last">$720.00</span>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">Fresh Brocoli
+                                                <Link to="#">Fresh Brocoli
                                                     <span className="middle">x 02</span>
                                                     <span className="last">$720.00</span>
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                         <ul className="list list_2">
                                             <li>
-                                                <a href="#">Subtotal
+                                                <Link to="#">Subtotal
                                                     <span>$2160.00</span>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">Shipping
+                                                <Link to="#">Shipping
                                                     <span>Flat rate: $50.00</span>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">Total
+                                                <Link to="#">Total
                                                     <span>$2210.00</span>
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                         <div className="payment_item">
@@ -190,7 +191,7 @@ const CheckOut = () => {
                                                 <div className="check" />
                                             </div>
                                             <p>
-                                                Please send a check to Store Name, Store Street, Store Town,
+                                                Please send Link check to Store Name, Store Street, Store Town,
                                                 Store State / County, Store Postcode.
                                             </p>
                                         </div>
@@ -202,16 +203,16 @@ const CheckOut = () => {
                                                 <div className="check" />
                                             </div>
                                             <p>
-                                                Please send a check to Store Name, Store Street, Store Town,
+                                                Please send Link check to Store Name, Store Street, Store Town,
                                                 Store State / County, Store Postcode.
                                             </p>
                                         </div>
                                         <div className="creat_account">
                                             <input type="checkbox" id="f-option4" name="selector" />
                                             <label htmlFor="f-option4">I’ve read and accept the </label>
-                                            <a href="#">terms &amp; conditions*</a>
+                                            <Link to="#">terms &amp; conditions*</Link>
                                         </div>
-                                        <a className="main_btn" href="#">Proceed to Paypal</a>
+                                        <Link className="main_btn" to="#">Proceed to Paypal</Link>
                                     </div>
                                 </div>
                             </div>

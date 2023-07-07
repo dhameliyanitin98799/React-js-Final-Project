@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Blog = () => {
     return (
@@ -14,9 +15,9 @@ const Blog = () => {
                                     <h2>Blog</h2>
                                     <p>Very us move be blessed multiply night</p>
                                 </div>
-                                <div className="page_link">
-                                    <link to="index.html">Home</link>
-                                    <link to="blog.html">Blog </link>
+                                <div className="page_Link">
+                                    <Link to="index.html">Home</Link>
+                                    <Link to="blog.html">Blog </Link>
                                 </div>
                             </div>
                         </div>
@@ -32,119 +33,119 @@ const Blog = () => {
                                     <article className="blog_item">
                                         <div className="blog_item_img">
                                             <img className="card-img rounded-0" src="asset/img/blog/main-blog/m-blog-1.jpg" alt />
-                                            <link to="#" className="blog_item_date">
+                                            <Link to="#" className="blog_item_date">
                                                 <h3>15</h3>
                                                 <p>Jan</p>
-                                            </link>
+                                            </Link>
                                         </div>
                                         <div className="blog_details">
-                                            <link className="d-inline-block" to="single-blog.html">
+                                            <Link className="d-inline-block" to="single-blog.html">
                                                 <h2>Google inks pact for new 35-storey office</h2>
-                                            </link>
+                                            </Link>
                                             <p>That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.</p>
-                                            <ul className="blog-info-link">
-                                                <li><link to="#"><i className="ti-user" /> Travel, Lifestyle</link></li>
-                                                <li><link to="#"><i className="ti-comments" /> 03 Comments</link></li>
+                                            <ul className="blog-info-Link">
+                                                <li><Link to="#"><i className="ti-user" /> Travel, Lifestyle</Link></li>
+                                                <li><Link to="#"><i className="ti-comments" /> 03 Comments</Link></li>
                                             </ul>
                                         </div>
                                     </article>
                                     <article className="blog_item">
                                         <div className="blog_item_img">
                                             <img className="card-img rounded-0" src="asset/img/blog/main-blog/m-blog-2.jpg" alt />
-                                            <link to="#" className="blog_item_date">
+                                            <Link to="#" className="blog_item_date">
                                                 <h3>15</h3>
                                                 <p>Jan</p>
-                                            </link>
+                                            </Link>
                                         </div>
                                         <div className="blog_details">
-                                            <link className="d-inline-block" to="single-blog.html">
+                                            <Link className="d-inline-block" to="single-blog.html">
                                                 <h2>Google inks pact for new 35-storey office</h2>
-                                            </link>
+                                            </Link>
                                             <p>That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.</p>
-                                            <ul className="blog-info-link">
-                                                <li><link to="#"><i className="ti-user" /> Travel, Lifestyle</link></li>
-                                                <li><link to="#"><i className="ti-comments" /> 03 Comments</link></li>
+                                            <ul className="blog-info-Link">
+                                                <li><Link to="#"><i className="ti-user" /> Travel, Lifestyle</Link></li>
+                                                <li><Link to="#"><i className="ti-comments" /> 03 Comments</Link></li>
                                             </ul>
                                         </div>
                                     </article>
                                     <article className="blog_item">
                                         <div className="blog_item_img">
                                             <img className="card-img rounded-0" src="asset/img/blog/main-blog/m-blog-3.jpg" alt />
-                                            <link to="#" className="blog_item_date">
+                                            <Link to="#" className="blog_item_date">
                                                 <h3>15</h3>
                                                 <p>Jan</p>
-                                            </link>
+                                            </Link>
                                         </div>
                                         <div className="blog_details">
-                                            <link className="d-inline-block" to="single-blog.html">
+                                            <Link className="d-inline-block" to="single-blog.html">
                                                 <h2>Google inks pact for new 35-storey office</h2>
-                                            </link>
+                                            </Link>
                                             <p>That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.</p>
-                                            <ul className="blog-info-link">
-                                                <li><link to="#"><i className="ti-user" /> Travel, Lifestyle</link></li>
-                                                <li><link to="#"><i className="ti-comments" /> 03 Comments</link></li>
+                                            <ul className="blog-info-Link">
+                                                <li><Link to="#"><i className="ti-user" /> Travel, Lifestyle</Link></li>
+                                                <li><Link to="#"><i className="ti-comments" /> 03 Comments</Link></li>
                                             </ul>
                                         </div>
                                     </article>
                                     <article className="blog_item">
                                         <div className="blog_item_img">
                                             <img className="card-img rounded-0" src="asset/img/blog/main-blog/m-blog-4.jpg" alt />
-                                            <link to="#" className="blog_item_date">
+                                            <Link to="#" className="blog_item_date">
                                                 <h3>15</h3>
                                                 <p>Jan</p>
-                                            </link>
+                                            </Link>
                                         </div>
                                         <div className="blog_details">
-                                            <link className="d-inline-block" to="single-blog.html">
+                                            <Link className="d-inline-block" to="single-blog.html">
                                                 <h2>Google inks pact for new 35-storey office</h2>
-                                            </link>
+                                            </Link>
                                             <p>That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.</p>
-                                            <ul className="blog-info-link">
-                                                <li><link to="#"><i className="ti-user" /> Travel, Lifestyle</link></li>
-                                                <li><link to="#"><i className="ti-comments" /> 03 Comments</link></li>
+                                            <ul className="blog-info-Link">
+                                                <li><Link to="#"><i className="ti-user" /> Travel, Lifestyle</Link></li>
+                                                <li><Link to="#"><i className="ti-comments" /> 03 Comments</Link></li>
                                             </ul>
                                         </div>
                                     </article>
                                     <article className="blog_item">
                                         <div className="blog_item_img">
                                             <img className="card-img rounded-0" src="asset/img/blog/main-blog/m-blog-5.jpg" alt />
-                                            <link to="#" className="blog_item_date">
+                                            <Link to="#" className="blog_item_date">
                                                 <h3>15</h3>
                                                 <p>Jan</p>
-                                            </link>
+                                            </Link>
                                         </div>
                                         <div className="blog_details">
-                                            <link className="d-inline-block" to="single-blog.html">
+                                            <Link className="d-inline-block" to="single-blog.html">
                                                 <h2>Google inks pact for new 35-storey office</h2>
-                                            </link>
+                                            </Link>
                                             <p>That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.</p>
-                                            <ul className="blog-info-link">
-                                                <li><link to="#"><i className="ti-user" /> Travel, Lifestyle</link></li>
-                                                <li><link to="#"><i className="ti-comments" /> 03 Comments</link></li>
+                                            <ul className="blog-info-Link">
+                                                <li><Link to="#"><i className="ti-user" /> Travel, Lifestyle</Link></li>
+                                                <li><Link to="#"><i className="ti-comments" /> 03 Comments</Link></li>
                                             </ul>
                                         </div>
                                     </article>
                                     <nav className="blog-pagination justify-content-center d-flex">
                                         <ul className="pagination">
                                             <li className="page-item">
-                                                <link to="#" className="page-link" aria-label="Previous">
+                                                <Link to="#" className="page-Link" aria-label="Previous">
                                                     <span aria-hidden="true">
                                                         <span className="ti-arrow-left" />
                                                     </span>
-                                                </link>
+                                                </Link>
                                             </li>
                                             <li className="page-item">
-                                                <link to="#" className="page-link">1</link>
+                                                <Link to="#" className="page-Link">1</Link>
                                             </li>
                                             <li className="page-item active">
-                                                <link to="#" className="page-link">2</link>
+                                                <Link to="#" className="page-Link">2</Link>
                                             </li>
                                             <li className="page-item">
-                                                <link to="#" className="page-link" aria-label="Next">
+                                                <Link to="#" className="page-Link" aria-label="Next">
                                                     <span aria-hidden="true">
                                                         <span className="ti-arrow-right" />
                                                     </span>
-                                                </link>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </nav>
@@ -169,40 +170,40 @@ const Blog = () => {
                                         <h4 className="widget_title">Category</h4>
                                         <ul className="list cat-list">
                                             <li>
-                                                <link to="#" className="d-flex">
+                                                <Link to="#" className="d-flex">
                                                     <p>Resaurant food</p>
                                                     <p>(37)</p>
-                                                </link>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <link to="#" className="d-flex">
+                                                <Link to="#" className="d-flex">
                                                     <p>Travel news</p>
                                                     <p>(10)</p>
-                                                </link>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <link to="#" className="d-flex">
+                                                <Link to="#" className="d-flex">
                                                     <p>Modern technology</p>
                                                     <p>(03)</p>
-                                                </link>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <link to="#" className="d-flex">
+                                                <Link to="#" className="d-flex">
                                                     <p>Product</p>
                                                     <p>(11)</p>
-                                                </link>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <link to="#" className="d-flex">
+                                                <Link to="#" className="d-flex">
                                                     <p>Inspiration</p>
                                                     <p>21</p>
-                                                </link>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <link to="#" className="d-flex">
+                                                <Link to="#" className="d-flex">
                                                     <p>Health Care (21)</p>
                                                     <p>09</p>
-                                                </link>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </aside>
@@ -211,36 +212,36 @@ const Blog = () => {
                                         <div className="media post_item">
                                             <img src="asset/img/blog/popular-post/post1.jpg" alt="post" />
                                             <div className="media-body">
-                                                <link to="single-blog.html">
+                                                <Link to="single-blog.html">
                                                     <h3>From life was you fish...</h3>
-                                                </link>
+                                                </Link>
                                                 <p>January 12, 2019</p>
                                             </div>
                                         </div>
                                         <div className="media post_item">
                                             <img src="asset/img/blog/popular-post/post2.jpg" alt="post" />
                                             <div className="media-body">
-                                                <link to="single-blog.html">
+                                                <Link to="single-blog.html">
                                                     <h3>The Amazing Hubble</h3>
-                                                </link>
+                                                </Link>
                                                 <p>02 Hours ago</p>
                                             </div>
                                         </div>
                                         <div className="media post_item">
                                             <img src="asset/img/blog/popular-post/post3.jpg" alt="post" />
                                             <div className="media-body">
-                                                <link to="single-blog.html">
+                                                <Link to="single-blog.html">
                                                     <h3>Astronomy Or Astrology</h3>
-                                                </link>
+                                                </Link>
                                                 <p>03 Hours ago</p>
                                             </div>
                                         </div>
                                         <div className="media post_item">
                                             <img src="asset/img/blog/popular-post/post4.jpg" alt="post" />
                                             <div className="media-body">
-                                                <link to="single-blog.html">
+                                                <Link to="single-blog.html">
                                                     <h3>Asteroids telescope</h3>
-                                                </link>
+                                                </Link>
                                                 <p>01 Hours ago</p>
                                             </div>
                                         </div>
@@ -249,28 +250,28 @@ const Blog = () => {
                                         <h4 className="widget_title">Tag Clouds</h4>
                                         <ul className="list">
                                             <li>
-                                                <link to="#">project</link>
+                                                <Link to="#">project</Link>
                                             </li>
                                             <li>
-                                                <link to="#">love</link>
+                                                <Link to="#">love</Link>
                                             </li>
                                             <li>
-                                                <link to="#">technology</link>
+                                                <Link to="#">technology</Link>
                                             </li>
                                             <li>
-                                                <link to="#">travel</link>
+                                                <Link to="#">travel</Link>
                                             </li>
                                             <li>
-                                                <link to="#">restaurant</link>
+                                                <Link to="#">restaurant</Link>
                                             </li>
                                             <li>
-                                                <link to="#">life style</link>
+                                                <Link to="#">life style</Link>
                                             </li>
                                             <li>
-                                                <link to="#">design</link>
+                                                <Link to="#">design</Link>
                                             </li>
                                             <li>
-                                                <link to="#">illustration</link>
+                                                <Link to="#">illustration</Link>
                                             </li>
                                         </ul>
                                     </aside>
@@ -278,34 +279,34 @@ const Blog = () => {
                                         <h4 className="widget_title">Instagram Feeds</h4>
                                         <ul className="instagram_row flex-wrap">
                                             <li>
-                                                <link to="#">
+                                                <Link to="#">
                                                     <img className="img-fluid" src="asset/img/instagram/widget-i1.png" alt />
-                                                </link>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <link to="#">
+                                                <Link to="#">
                                                     <img className="img-fluid" src="asset/img/instagram/widget-i2.png" alt />
-                                                </link>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <link to="#">
+                                                <Link to="#">
                                                     <img className="img-fluid" src="asset/img/instagram/widget-i3.png" alt />
-                                                </link>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <link to="#">
+                                                <Link to="#">
                                                     <img className="img-fluid" src="asset/img/instagram/widget-i4.png" alt />
-                                                </link>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <link to="#">
+                                                <Link to="#">
                                                     <img className="img-fluid" src="asset/img/instagram/widget-i5.png" alt />
-                                                </link>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <link to="#">
+                                                <Link to="#">
                                                     <img className="img-fluid" src="asset/img/instagram/widget-i6.png" alt />
-                                                </link>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </aside>

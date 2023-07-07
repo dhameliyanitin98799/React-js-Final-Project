@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Tracking = () => {
     return (
@@ -15,8 +16,8 @@ const Tracking = () => {
                                     <p>Very us move be blessed multiply night</p>
                                 </div>
                                 <div className="page_link">
-                                    <a href="index.html">Home</a>
-                                    <a href="tracking.html">Order Tracking</a>
+                                    <Link to="index.html">Home</Link>
+                                    <Link to="tracking.html">Order Tracking</Link>
                                 </div>
                             </div>
                         </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const SingleBlog = () => {
     return (
@@ -15,9 +16,9 @@ const SingleBlog = () => {
                                     <p>Very us move be blessed multiply night</p>
                                 </div>
                                 <div className="page_link">
-                                    <a href="index.html">Home</a>
-                                    <a href="blog.html">Blog </a>
-                                    <a href="single-blog.html">Blog Details</a>
+                                    <Link to="index.html">Home</Link>
+                                    <Link to="blog.html">Blog </Link>
+                                    <Link to="single-blog.html">Blog Details</Link>
                                 </div>
                             </div>
                         </div>
@@ -36,26 +37,26 @@ const SingleBlog = () => {
                                     <div className="blog_details">
                                         <h2>Second divided from form fish beast made every of seas
                                             all gathered us saying he our</h2>
-                                        <ul className="blog-info-link mt-3 mb-4">
-                                            <li><a href="#"><i className="ti-user" /> Travel, Lifestyle</a></li>
-                                            <li><a href="#"><i className="ti-comments" /> 03 Comments</a></li>
+                                        <ul className="blog-info-Link mt-3 mb-4">
+                                            <li><Link to="#"><i className="ti-user" /> Travel, Lifestyle</Link></li>
+                                            <li><Link to="#"><i className="ti-comments" /> 03 Comments</Link></li>
                                         </ul>
                                         <p className="excert">
-                                            MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower
+                                            MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at Link fraction of the camp price. However, who has the willpower
                                         </p>
                                         <p>
-                                            MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually
+                                            MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at Link fraction of the camp price. However, who has the willpower to actually sit through Link self-imposed MCSE training. who has the willpower to actually
                                         </p>
                                         <div className="quote-wrapper">
                                             <div className="quotes">
-                                                MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training.
+                                                MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at Link fraction of the camp price. However, who has the willpower to actually sit through Link self-imposed MCSE training.
                                             </div>
                                         </div>
                                         <p>
-                                            MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower
+                                            MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at Link fraction of the camp price. However, who has the willpower
                                         </p>
                                         <p>
-                                            MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually
+                                            MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at Link fraction of the camp price. However, who has the willpower to actually sit through Link self-imposed MCSE training. who has the willpower to actually
                                         </p>
                                     </div>
                                 </div>
@@ -66,48 +67,48 @@ const SingleBlog = () => {
                                             <p className="comment-count"><span className="align-middle"><i className="ti-comment" /></span> 06 Comments</p>
                                         </div>
                                         <ul className="social-icons">
-                                            <li><a href="#"><i className="ti-facebook" /></a></li>
-                                            <li><a href="#"><i className="ti-twitter-alt" /></a></li>
-                                            <li><a href="#"><i className="ti-dribbble" /></a></li>
-                                            <li><a href="#"><i className="ti-wordpress" /></a></li>
+                                            <li><Link to="#"><i className="ti-facebook" /></Link></li>
+                                            <li><Link to="#"><i className="ti-twitter-alt" /></Link></li>
+                                            <li><Link to="#"><i className="ti-dribbble" /></Link></li>
+                                            <li><Link to="#"><i className="ti-wordpress" /></Link></li>
                                         </ul>
                                     </div>
                                     <div className="navigation-area">
                                         <div className="row">
                                             <div className="col-lg-6 col-md-6 col-12 nav-left flex-row d-flex justify-content-start align-items-center">
                                                 <div className="thumb">
-                                                    <a href="#">
+                                                    <Link to="#">
                                                         <img className="img-fluid" src="asset/img/blog/prev.jpg" alt />
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                                 <div className="arrow">
-                                                    <a href="#">
+                                                    <Link to="#">
                                                         <span className="ti-arrow-left text-white" />
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                                 <div className="detials">
                                                     <p>Prev Post</p>
-                                                    <a href="#">
+                                                    <Link to="#">
                                                         <h4>Space The Final Frontier</h4>
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-md-6 col-12 nav-right flex-row d-flex justify-content-end align-items-center">
                                                 <div className="detials">
                                                     <p>Next Post</p>
-                                                    <a href="#">
+                                                    <Link to="#">
                                                         <h4>Telescopes 101</h4>
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                                 <div className="arrow">
-                                                    <a href="#">
+                                                    <Link to="#">
                                                         <span className="ti-arrow-right text-white" />
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                                 <div className="thumb">
-                                                    <a href="#">
+                                                    <Link to="#">
                                                         <img className="img-fluid" src="asset/img/blog/next.jpg" alt />
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -117,9 +118,9 @@ const SingleBlog = () => {
                                     <div className="media align-items-center">
                                         <img src="asset/img/blog/author.png" alt />
                                         <div className="media-body">
-                                            <a href="#">
+                                            <Link to="#">
                                                 <h4>Harvard milan</h4>
-                                            </a>
+                                            </Link>
                                             <p>Second divided from form fish beast made. Every of seas all gathered use saying you're, he our dominion twon Second divided from</p>
                                         </div>
                                     </div>
@@ -139,12 +140,12 @@ const SingleBlog = () => {
                                                     <div className="d-flex justify-content-between">
                                                         <div className="d-flex align-items-center">
                                                             <h5>
-                                                                <a href="#">Emilly Blunt</a>
+                                                                <Link to="#">Emilly Blunt</Link>
                                                             </h5>
                                                             <p className="date">December 4, 2017 at 3:12 pm </p>
                                                         </div>
                                                         <div className="reply-btn">
-                                                            <a href="#" className="btn-reply text-uppercase">reply</a>
+                                                            <Link to="#" className="btn-reply text-uppercase">reply</Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -164,12 +165,12 @@ const SingleBlog = () => {
                                                     <div className="d-flex justify-content-between">
                                                         <div className="d-flex align-items-center">
                                                             <h5>
-                                                                <a href="#">Emilly Blunt</a>
+                                                                <Link to="#">Emilly Blunt</Link>
                                                             </h5>
                                                             <p className="date">December 4, 2017 at 3:12 pm </p>
                                                         </div>
                                                         <div className="reply-btn">
-                                                            <a href="#" className="btn-reply text-uppercase">reply</a>
+                                                            <Link to="#" className="btn-reply text-uppercase">reply</Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -189,12 +190,12 @@ const SingleBlog = () => {
                                                     <div className="d-flex justify-content-between">
                                                         <div className="d-flex align-items-center">
                                                             <h5>
-                                                                <a href="#">Emilly Blunt</a>
+                                                                <Link to="#">Emilly Blunt</Link>
                                                             </h5>
                                                             <p className="date">December 4, 2017 at 3:12 pm </p>
                                                         </div>
                                                         <div className="reply-btn">
-                                                            <a href="#" className="btn-reply text-uppercase">reply</a>
+                                                            <Link to="#" className="btn-reply text-uppercase">reply</Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -203,7 +204,7 @@ const SingleBlog = () => {
                                     </div>
                                 </div>
                                 <div className="comment-form">
-                                    <h4>Leave a Reply</h4>
+                                    <h4>Leave Link Reply</h4>
                                     <form className="form-contact comment_form" action="#" id="commentForm">
                                         <div className="row">
                                             <div className="col-12">
@@ -252,40 +253,40 @@ const SingleBlog = () => {
                                         <h4 className="widget_title">Category</h4>
                                         <ul className="list cat-list">
                                             <li>
-                                                <a href="#" className="d-flex">
+                                                <Link to="#" className="d-flex">
                                                     <p>Resaurant food</p>
                                                     <p>(37)</p>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#" className="d-flex">
+                                                <Link to="#" className="d-flex">
                                                     <p>Travel news</p>
                                                     <p>(10)</p>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#" className="d-flex">
+                                                <Link to="#" className="d-flex">
                                                     <p>Modern technology</p>
                                                     <p>(03)</p>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#" className="d-flex">
+                                                <Link to="#" className="d-flex">
                                                     <p>Product</p>
                                                     <p>(11)</p>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#" className="d-flex">
+                                                <Link to="#" className="d-flex">
                                                     <p>Inspiration</p>
                                                     <p>(21)</p>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#" className="d-flex">
+                                                <Link to="#" className="d-flex">
                                                     <p>Health Care</p>
                                                     <p>(21)</p>
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </aside>
@@ -294,36 +295,36 @@ const SingleBlog = () => {
                                         <div className="media post_item">
                                             <img src="asset/img/blog/popular-post/post1.jpg" alt="post" />
                                             <div className="media-body">
-                                                <a href="single-blog.html">
+                                                <Link to="single-blog.html">
                                                     <h3>From life was you fish...</h3>
-                                                </a>
+                                                </Link>
                                                 <p>January 12, 2019</p>
                                             </div>
                                         </div>
                                         <div className="media post_item">
                                             <img src="asset/img/blog/popular-post/post2.jpg" alt="post" />
                                             <div className="media-body">
-                                                <a href="single-blog.html">
+                                                <Link to="single-blog.html">
                                                     <h3>The Amazing Hubble</h3>
-                                                </a>
+                                                </Link>
                                                 <p>02 Hours ago</p>
                                             </div>
                                         </div>
                                         <div className="media post_item">
                                             <img src="asset/img/blog/popular-post/post3.jpg" alt="post" />
                                             <div className="media-body">
-                                                <a href="single-blog.html">
+                                                <Link to="single-blog.html">
                                                     <h3>Astronomy Or Astrology</h3>
-                                                </a>
+                                                </Link>
                                                 <p>03 Hours ago</p>
                                             </div>
                                         </div>
                                         <div className="media post_item">
                                             <img src="asset/img/blog/popular-post/post4.jpg" alt="post" />
                                             <div className="media-body">
-                                                <a href="single-blog.html">
+                                                <Link to="single-blog.html">
                                                     <h3>Asteroids telescope</h3>
-                                                </a>
+                                                </Link>
                                                 <p>01 Hours ago</p>
                                             </div>
                                         </div>
@@ -332,28 +333,28 @@ const SingleBlog = () => {
                                         <h4 className="widget_title">Tag Clouds</h4>
                                         <ul className="list">
                                             <li>
-                                                <a href="#">project</a>
+                                                <Link to="#">project</Link>
                                             </li>
                                             <li>
-                                                <a href="#">love</a>
+                                                <Link to="#">love</Link>
                                             </li>
                                             <li>
-                                                <a href="#">technology</a>
+                                                <Link to="#">technology</Link>
                                             </li>
                                             <li>
-                                                <a href="#">travel</a>
+                                                <Link to="#">travel</Link>
                                             </li>
                                             <li>
-                                                <a href="#">restaurant</a>
+                                                <Link to="#">restaurant</Link>
                                             </li>
                                             <li>
-                                                <a href="#">life style</a>
+                                                <Link to="#">life style</Link>
                                             </li>
                                             <li>
-                                                <a href="#">design</a>
+                                                <Link to="#">design</Link>
                                             </li>
                                             <li>
-                                                <a href="#">illustration</a>
+                                                <Link to="#">illustration</Link>
                                             </li>
                                         </ul>
                                     </aside>
@@ -361,34 +362,34 @@ const SingleBlog = () => {
                                         <h4 className="widget_title">Instagram Feeds</h4>
                                         <ul className="instagram_row flex-wrap">
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     <img className="img-fluid" src="asset/img/instagram/widget-i1.png" alt />
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     <img className="img-fluid" src="asset/img/instagram/widget-i2.png" alt />
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     <img className="img-fluid" src="asset/img/instagram/widget-i3.png" alt />
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     <img className="img-fluid" src="asset/img/instagram/widget-i4.png" alt />
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     <img className="img-fluid" src="asset/img/instagram/widget-i5.png" alt />
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     <img className="img-fluid" src="asset/img/instagram/widget-i6.png" alt />
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </aside>
