@@ -1,7 +1,46 @@
-import React from 'react'
+
 import { Link } from 'react-router-dom'
+import {
+    addDoc,
+    collection,
+    getDocs,
+  } from "firebase/firestore";
+  import React, { useEffect, useState } from "react";
+import { fireStoreDb } from './FirebaseConfig';
 
 const Footer = () => {
+    const [data, setData] = useState([]);
+  const [newItem, setNewItem] = useState("");
+
+  const [onItemChange, setItemChange] = useState("");
+
+  const fetchData = async () => {
+    const querySnapshot = await getDocs(collection(fireStoreDb, "users"));
+    console.log(querySnapshot.docs);
+
+    const data = [];
+    querySnapshot.forEach((doc) => {
+      if (doc.data().first) {
+        data.push({ id: doc.id, text: doc.data().first });
+      }
+    });
+    setData(data);
+  };
+  
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const handleCreate = async () => {
+    // Add a new document in collection "cities"
+    await addDoc(collection(fireStoreDb, "users"), {
+      first: newItem,
+      last: "Lovelace",
+      born: 1996,
+    });
+    fetchData();
+    setNewItem("");
+  };
     return (
         <div>
 
@@ -50,8 +89,11 @@ const Footer = () => {
                             <p>You can trust us. we only send promo offers,</p>
                             <div className="form-wrap" id="mc_embed_signup">
                                 <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01" method="get" className="form-inline">
-                                    <input className="form-control" name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '" required type="email" />
-                                    <button className="click-btn btn btn-default">Subscribe</button>
+                                    <input value={newItem}
+                                    onChange={(e) => setNewItem(e.target.value)} className="form-control" name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '" required type="email" />
+                                    <button className="click-btn btn btn-default" onClick={() => {
+                                        handleCreate();
+                                      }}>Subscribe</button>
                                     <div style={{ position: 'absolute', left: '-5000px' }}>
                                         <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabIndex={-1} defaultValue type="text" />
                                     </div>

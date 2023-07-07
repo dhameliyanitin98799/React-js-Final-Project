@@ -15,8 +15,8 @@ const Cart = () => {
                                     <p>Very us move be blessed multiply night</p>
                                 </div>
                                 <div className="page_link">
-                                    <a href="index.html">Home</a>
-                                    <a href="cart.html">Cart</a>
+                                    <link to="index.html">Home</link>
+                                    <link to="cart.html">Cart</link>
                                 </div>
                             </div>
                         </div>
@@ -127,15 +127,15 @@ const Cart = () => {
                                         </tr>
                                         <tr className="bottom_button">
                                             <td>
-                                                <a className="gray_btn" href="#">Update Cart</a>
+                                                <link className="gray_btn" to="#">Update Cart</link>
                                             </td>
                                             <td />
                                             <td />
                                             <td>
                                                 <div className="cupon_text">
                                                     <input type="text" placeholder="Coupon Code" />
-                                                    <a className="main_btn" href="#">Apply</a>
-                                                    <a className="gray_btn" href="#">Close Coupon</a>
+                                                    <link className="main_btn" to="#">Apply</link>
+                                                    <link className="gray_btn" to="#">Close Coupon</link>
                                                 </div>
                                             </td>
                                         </tr>
@@ -159,16 +159,16 @@ const Cart = () => {
                                                 <div className="shipping_box">
                                                     <ul className="list">
                                                         <li>
-                                                            <a href="#">Flat Rate: $5.00</a>
+                                                            <link to="#">Flat Rate: $5.00</link>
                                                         </li>
                                                         <li>
-                                                            <a href="#">Free Shipping</a>
+                                                            <link to="#">Free Shipping</link>
                                                         </li>
                                                         <li>
-                                                            <a href="#">Flat Rate: $10.00</a>
+                                                            <link to="#">Flat Rate: $10.00</link>
                                                         </li>
                                                         <li className="active">
-                                                            <a href="#">Local Delivery: $2.00</a>
+                                                            <link to="#">Local Delivery: $2.00</link>
                                                         </li>
                                                     </ul>
                                                     <h6>
@@ -181,12 +181,12 @@ const Cart = () => {
                                                         <option value={4}>Pakistan</option>
                                                     </select>
                                                     <select className="shipping_select">
-                                                        <option value={1}>Select a State</option>
-                                                        <option value={2}>Select a State</option>
-                                                        <option value={4}>Select a State</option>
+                                                        <option value={1}>Select link State</option>
+                                                        <option value={2}>Select link State</option>
+                                                        <option value={4}>Select link State</option>
                                                     </select>
                                                     <input type="text" placeholder="Postcode/Zipcode" />
-                                                    <a className="gray_btn" href="#">Update Details</a>
+                                                    <link className="gray_btn" to="#">Update Details</link>
                                                 </div>
                                             </td>
                                         </tr>
@@ -196,8 +196,8 @@ const Cart = () => {
                                             <td />
                                             <td>
                                                 <div className="checkout_btn_inner">
-                                                    <a className="gray_btn" href="#">Continue Shopping</a>
-                                                    <a className="main_btn" href="#">Proceed to checkout</a>
+                                                    <link className="gray_btn" to="#">Continue Shopping</link>
+                                                    <link className="main_btn" to="#">Proceed to checkout</link>
                                                 </div>
                                             </td>
                                         </tr>

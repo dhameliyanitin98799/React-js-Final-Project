@@ -15,8 +15,8 @@ const Blog = () => {
                                     <p>Very us move be blessed multiply night</p>
                                 </div>
                                 <div className="page_link">
-                                    <a href="index.html">Home</a>
-                                    <a href="blog.html">Blog </a>
+                                    <link to="index.html">Home</link>
+                                    <link to="blog.html">Blog </link>
                                 </div>
                             </div>
                         </div>
@@ -32,119 +32,119 @@ const Blog = () => {
                                     <article className="blog_item">
                                         <div className="blog_item_img">
                                             <img className="card-img rounded-0" src="asset/img/blog/main-blog/m-blog-1.jpg" alt />
-                                            <a href="#" className="blog_item_date">
+                                            <link to="#" className="blog_item_date">
                                                 <h3>15</h3>
                                                 <p>Jan</p>
-                                            </a>
+                                            </link>
                                         </div>
                                         <div className="blog_details">
-                                            <a className="d-inline-block" href="single-blog.html">
+                                            <link className="d-inline-block" to="single-blog.html">
                                                 <h2>Google inks pact for new 35-storey office</h2>
-                                            </a>
+                                            </link>
                                             <p>That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.</p>
                                             <ul className="blog-info-link">
-                                                <li><a href="#"><i className="ti-user" /> Travel, Lifestyle</a></li>
-                                                <li><a href="#"><i className="ti-comments" /> 03 Comments</a></li>
+                                                <li><link to="#"><i className="ti-user" /> Travel, Lifestyle</link></li>
+                                                <li><link to="#"><i className="ti-comments" /> 03 Comments</link></li>
                                             </ul>
                                         </div>
                                     </article>
                                     <article className="blog_item">
                                         <div className="blog_item_img">
                                             <img className="card-img rounded-0" src="asset/img/blog/main-blog/m-blog-2.jpg" alt />
-                                            <a href="#" className="blog_item_date">
+                                            <link to="#" className="blog_item_date">
                                                 <h3>15</h3>
                                                 <p>Jan</p>
-                                            </a>
+                                            </link>
                                         </div>
                                         <div className="blog_details">
-                                            <a className="d-inline-block" href="single-blog.html">
+                                            <link className="d-inline-block" to="single-blog.html">
                                                 <h2>Google inks pact for new 35-storey office</h2>
-                                            </a>
+                                            </link>
                                             <p>That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.</p>
                                             <ul className="blog-info-link">
-                                                <li><a href="#"><i className="ti-user" /> Travel, Lifestyle</a></li>
-                                                <li><a href="#"><i className="ti-comments" /> 03 Comments</a></li>
+                                                <li><link to="#"><i className="ti-user" /> Travel, Lifestyle</link></li>
+                                                <li><link to="#"><i className="ti-comments" /> 03 Comments</link></li>
                                             </ul>
                                         </div>
                                     </article>
                                     <article className="blog_item">
                                         <div className="blog_item_img">
                                             <img className="card-img rounded-0" src="asset/img/blog/main-blog/m-blog-3.jpg" alt />
-                                            <a href="#" className="blog_item_date">
+                                            <link to="#" className="blog_item_date">
                                                 <h3>15</h3>
                                                 <p>Jan</p>
-                                            </a>
+                                            </link>
                                         </div>
                                         <div className="blog_details">
-                                            <a className="d-inline-block" href="single-blog.html">
+                                            <link className="d-inline-block" to="single-blog.html">
                                                 <h2>Google inks pact for new 35-storey office</h2>
-                                            </a>
+                                            </link>
                                             <p>That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.</p>
                                             <ul className="blog-info-link">
-                                                <li><a href="#"><i className="ti-user" /> Travel, Lifestyle</a></li>
-                                                <li><a href="#"><i className="ti-comments" /> 03 Comments</a></li>
+                                                <li><link to="#"><i className="ti-user" /> Travel, Lifestyle</link></li>
+                                                <li><link to="#"><i className="ti-comments" /> 03 Comments</link></li>
                                             </ul>
                                         </div>
                                     </article>
                                     <article className="blog_item">
                                         <div className="blog_item_img">
                                             <img className="card-img rounded-0" src="asset/img/blog/main-blog/m-blog-4.jpg" alt />
-                                            <a href="#" className="blog_item_date">
+                                            <link to="#" className="blog_item_date">
                                                 <h3>15</h3>
                                                 <p>Jan</p>
-                                            </a>
+                                            </link>
                                         </div>
                                         <div className="blog_details">
-                                            <a className="d-inline-block" href="single-blog.html">
+                                            <link className="d-inline-block" to="single-blog.html">
                                                 <h2>Google inks pact for new 35-storey office</h2>
-                                            </a>
+                                            </link>
                                             <p>That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.</p>
                                             <ul className="blog-info-link">
-                                                <li><a href="#"><i className="ti-user" /> Travel, Lifestyle</a></li>
-                                                <li><a href="#"><i className="ti-comments" /> 03 Comments</a></li>
+                                                <li><link to="#"><i className="ti-user" /> Travel, Lifestyle</link></li>
+                                                <li><link to="#"><i className="ti-comments" /> 03 Comments</link></li>
                                             </ul>
                                         </div>
                                     </article>
                                     <article className="blog_item">
                                         <div className="blog_item_img">
                                             <img className="card-img rounded-0" src="asset/img/blog/main-blog/m-blog-5.jpg" alt />
-                                            <a href="#" className="blog_item_date">
+                                            <link to="#" className="blog_item_date">
                                                 <h3>15</h3>
                                                 <p>Jan</p>
-                                            </a>
+                                            </link>
                                         </div>
                                         <div className="blog_details">
-                                            <a className="d-inline-block" href="single-blog.html">
+                                            <link className="d-inline-block" to="single-blog.html">
                                                 <h2>Google inks pact for new 35-storey office</h2>
-                                            </a>
+                                            </link>
                                             <p>That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.</p>
                                             <ul className="blog-info-link">
-                                                <li><a href="#"><i className="ti-user" /> Travel, Lifestyle</a></li>
-                                                <li><a href="#"><i className="ti-comments" /> 03 Comments</a></li>
+                                                <li><link to="#"><i className="ti-user" /> Travel, Lifestyle</link></li>
+                                                <li><link to="#"><i className="ti-comments" /> 03 Comments</link></li>
                                             </ul>
                                         </div>
                                     </article>
                                     <nav className="blog-pagination justify-content-center d-flex">
                                         <ul className="pagination">
                                             <li className="page-item">
-                                                <a href="#" className="page-link" aria-label="Previous">
+                                                <link to="#" className="page-link" aria-label="Previous">
                                                     <span aria-hidden="true">
                                                         <span className="ti-arrow-left" />
                                                     </span>
-                                                </a>
+                                                </link>
                                             </li>
                                             <li className="page-item">
-                                                <a href="#" className="page-link">1</a>
+                                                <link to="#" className="page-link">1</link>
                                             </li>
                                             <li className="page-item active">
-                                                <a href="#" className="page-link">2</a>
+                                                <link to="#" className="page-link">2</link>
                                             </li>
                                             <li className="page-item">
-                                                <a href="#" className="page-link" aria-label="Next">
+                                                <link to="#" className="page-link" aria-label="Next">
                                                     <span aria-hidden="true">
                                                         <span className="ti-arrow-right" />
                                                     </span>
-                                                </a>
+                                                </link>
                                             </li>
                                         </ul>
                                     </nav>
@@ -169,40 +169,40 @@ const Blog = () => {
                                         <h4 className="widget_title">Category</h4>
                                         <ul className="list cat-list">
                                             <li>
-                                                <a href="#" className="d-flex">
+                                                <link to="#" className="d-flex">
                                                     <p>Resaurant food</p>
                                                     <p>(37)</p>
-                                                </a>
+                                                </link>
                                             </li>
                                             <li>
-                                                <a href="#" className="d-flex">
+                                                <link to="#" className="d-flex">
                                                     <p>Travel news</p>
                                                     <p>(10)</p>
-                                                </a>
+                                                </link>
                                             </li>
                                             <li>
-                                                <a href="#" className="d-flex">
+                                                <link to="#" className="d-flex">
                                                     <p>Modern technology</p>
                                                     <p>(03)</p>
-                                                </a>
+                                                </link>
                                             </li>
                                             <li>
-                                                <a href="#" className="d-flex">
+                                                <link to="#" className="d-flex">
                                                     <p>Product</p>
                                                     <p>(11)</p>
-                                                </a>
+                                                </link>
                                             </li>
                                             <li>
-                                                <a href="#" className="d-flex">
+                                                <link to="#" className="d-flex">
                                                     <p>Inspiration</p>
                                                     <p>21</p>
-                                                </a>
+                                                </link>
                                             </li>
                                             <li>
-                                                <a href="#" className="d-flex">
+                                                <link to="#" className="d-flex">
                                                     <p>Health Care (21)</p>
                                                     <p>09</p>
-                                                </a>
+                                                </link>
                                             </li>
                                         </ul>
                                     </aside>
@@ -211,36 +211,36 @@ const Blog = () => {
                                         <div className="media post_item">
                                             <img src="asset/img/blog/popular-post/post1.jpg" alt="post" />
                                             <div className="media-body">
-                                                <a href="single-blog.html">
+                                                <link to="single-blog.html">
                                                     <h3>From life was you fish...</h3>
-                                                </a>
+                                                </link>
                                                 <p>January 12, 2019</p>
                                             </div>
                                         </div>
                                         <div className="media post_item">
                                             <img src="asset/img/blog/popular-post/post2.jpg" alt="post" />
                                             <div className="media-body">
-                                                <a href="single-blog.html">
+                                                <link to="single-blog.html">
                                                     <h3>The Amazing Hubble</h3>
-                                                </a>
+                                                </link>
                                                 <p>02 Hours ago</p>
                                             </div>
                                         </div>
                                         <div className="media post_item">
                                             <img src="asset/img/blog/popular-post/post3.jpg" alt="post" />
                                             <div className="media-body">
-                                                <a href="single-blog.html">
+                                                <link to="single-blog.html">
                                                     <h3>Astronomy Or Astrology</h3>
-                                                </a>
+                                                </link>
                                                 <p>03 Hours ago</p>
                                             </div>
                                         </div>
                                         <div className="media post_item">
                                             <img src="asset/img/blog/popular-post/post4.jpg" alt="post" />
                                             <div className="media-body">
-                                                <a href="single-blog.html">
+                                                <link to="single-blog.html">
                                                     <h3>Asteroids telescope</h3>
-                                                </a>
+                                                </link>
                                                 <p>01 Hours ago</p>
                                             </div>
                                         </div>
@@ -249,28 +249,28 @@ const Blog = () => {
                                         <h4 className="widget_title">Tag Clouds</h4>
                                         <ul className="list">
                                             <li>
-                                                <a href="#">project</a>
+                                                <link to="#">project</link>
                                             </li>
                                             <li>
-                                                <a href="#">love</a>
+                                                <link to="#">love</link>
                                             </li>
                                             <li>
-                                                <a href="#">technology</a>
+                                                <link to="#">technology</link>
                                             </li>
                                             <li>
-                                                <a href="#">travel</a>
+                                                <link to="#">travel</link>
                                             </li>
                                             <li>
-                                                <a href="#">restaurant</a>
+                                                <link to="#">restaurant</link>
                                             </li>
                                             <li>
-                                                <a href="#">life style</a>
+                                                <link to="#">life style</link>
                                             </li>
                                             <li>
-                                                <a href="#">design</a>
+                                                <link to="#">design</link>
                                             </li>
                                             <li>
-                                                <a href="#">illustration</a>
+                                                <link to="#">illustration</link>
                                             </li>
                                         </ul>
                                     </aside>
@@ -278,34 +278,34 @@ const Blog = () => {
                                         <h4 className="widget_title">Instagram Feeds</h4>
                                         <ul className="instagram_row flex-wrap">
                                             <li>
-                                                <a href="#">
+                                                <link to="#">
                                                     <img className="img-fluid" src="asset/img/instagram/widget-i1.png" alt />
-                                                </a>
+                                                </link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <link to="#">
                                                     <img className="img-fluid" src="asset/img/instagram/widget-i2.png" alt />
-                                                </a>
+                                                </link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <link to="#">
                                                     <img className="img-fluid" src="asset/img/instagram/widget-i3.png" alt />
-                                                </a>
+                                                </link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <link to="#">
                                                     <img className="img-fluid" src="asset/img/instagram/widget-i4.png" alt />
-                                                </a>
+                                                </link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <link to="#">
                                                     <img className="img-fluid" src="asset/img/instagram/widget-i5.png" alt />
-                                                </a>
+                                                </link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <link to="#">
                                                     <img className="img-fluid" src="asset/img/instagram/widget-i6.png" alt />
-                                                </a>
+                                                </link>
                                             </li>
                                         </ul>
                                     </aside>

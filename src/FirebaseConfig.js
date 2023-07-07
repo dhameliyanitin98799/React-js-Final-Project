@@ -5,7 +5,7 @@ import { getFirestore } from "firebase/firestore";
 // TODO: Replace the following with your app's Firebase project configuration
 // See: https://support.google.com/firebase/answer/7015592
 const firebaseConfig = {
-    apiKey: "AIzaSyBeXkVuKMLVflg4Ckvhv77E5ADepgY0fZY",
+  apiKey: "AIzaSyBeXkVuKMLVflg4Ckvhv77E5ADepgY0fZY",
   authDomain: "e-commerce-app-e97aa.firebaseapp.com",
   projectId: "e-commerce-app-e97aa",
   storageBucket: "e-commerce-app-e97aa.appspot.com",
